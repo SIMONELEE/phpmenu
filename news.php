@@ -6,12 +6,9 @@
 </head>
 
 <body>
-<ul>
-    	<li><a href="index.php">Home</a></li>
-        <li><a href="about.php">About</a></li>
-        <li><a href="news.php">News</a></li>
-        <li><a href="contact.php">Contact</a></li>
-    </ul>
+<?php 
+require 'menu.php';
+?>
 <h1>News</h1>
 <p>This will be a page about the exciting news.</p>
 </body>
