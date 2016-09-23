@@ -1,4 +1,45 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+	background: #F4F4F4; 
+	font-family: 'Raleway', Arial, sans-serif;
+	padding-top: 15px;
+	margin: 0;
+	background-image:url(php.png);
+	background-repeat:no-repeat;
+	background-position: 50% 200%; 
+	background-size:auto;
+	}
+	
+p, h1 {
+	padding: 5px 40px;
+	}
+	
+li { 
+    display: inline;
+}
 
+a {
+    font-weight: bold;
+	color: black;
+    line-height: 14px;
+    text-decoration: none; 
+	padding: 5px 15px;
+	background-color: #EF8D8B;
+}
+
+a:visited {
+	color: #606060;
+	}
+
+a:hover {
+    border-bottom: solid #F9CFC5;
+    padding: 5px 15px;
+    background-color: #F9CFC5;
+}
+
+.active { 
+    padding: 5px 15px;
+    background-color: #B2D3C7;
+}

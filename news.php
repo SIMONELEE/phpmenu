@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>News</title>
 <link rel="stylesheet" type="text/css" href="main.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 
 <body>
@@ -18,6 +19,6 @@ The "require" function means that the php will look for the files from the seper
 require 'menu.php';
 ?>
 <h1>News</h1>
-<p>This will be a page about the exciting news.</p>
+<p>This will be a page about exciting news.</p>
 </body>
 </html>

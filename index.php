@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>Home Page</title>
 <link rel="stylesheet" type="text/css" href="main.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 
 <body>
@@ -17,7 +18,7 @@ $curpage = 'index.php'; */
 The "require" function means that the php will look for the files from the seperate menu.php file and the process will stop, if any files are missing. Instead could've used "include" but if any files should be missing, the php will just ignore this and continue with the other links. As all the files for the menu should be working, I used "require".*/
 require 'menu.php';
 ?>
-<h1>This is my home page.</h1>
+<h1>My Home Page</h1>
 <p>For this page I will add a PHP menu.</p>
 </body>
 </html>

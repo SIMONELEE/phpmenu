@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>Contact</title>
 <link rel="stylesheet" type="text/css" href="main.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 
 <body>
@@ -18,6 +19,6 @@ The "require" function means that the php will look for the files from the seper
 require 'menu.php';
 ?>
 <h1>Contact</h1>
-<p>And this is the site of how to get in contact with me. </p>
+<p>And this is the site of how to get in contact. </p>
 </body>
 </html>
