@@ -7,9 +7,9 @@
 
 <body>
 <?php 
-
-/*To show which page is the active for the menu, I've created the variable $curpage for the current page.*/
-$curpage = 'contact.php'; 
+/* Because of the basename function in the menu.php file, there's no need for the $curpage variable on each individual .php file - therefore this is commented out.
+To show which page is the active for the menu, I've created the variable $curpage for the current page.
+$curpage = 'contact.php'; */
 
 	
 /*Instead of having the individual code for the menu in each page, this php connects to one php file that has the entire menu. So if anything needs to be changed, it only has to be changed in the one menu.php file and the other pages will update.
